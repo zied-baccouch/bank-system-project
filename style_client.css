@@ -1,0 +1,158 @@
+span{
+  font-weight: bold;
+  color: blueviolet;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  font-style: normal;
+
+}
+
+fieldset{
+  border:solid 1px #EE6600;
+  border-radius:10px;
+  padding:20px;
+}
+
+legend{
+  font:bold 16pt arial;
+  color:#EE6600;
+}
+
+input[type="submit"]{
+  border:none;
+  background-color:#EE6600;
+  color:#FFFFFF;
+  width:200px;
+  cursor:pointer;
+  height: 30px;
+  margin-left: 40px;
+  border-radius: 20px;
+}
+
+select {
+  width: 300px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+.num_cin{
+  margin-left: 50px;
+}
+
+.img{
+  
+  width: 200px;
+  height: 200px;
+}
+
+form{
+  margin-left: 45px;
+  margin-right: 45px;
+  
+}
+
+div{
+  margin-bottom: 23px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+#cin{
+  margin-left: 40px;
+  width: 300px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+
+#nom{
+  margin-left: 95px;
+  width: 300px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+
+#prenom{
+  margin-left: 67px;
+  width: 300px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+
+#sexe{
+  margin-left: 90px;
+  width: 300px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+
+#date_nais{
+  margin-left: 50px;
+  width: 300px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+
+#num_tel{
+  margin-left: 40px;
+  width: 300px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+
+.nom:focus {
+  outline-color: #e8e8e8;
+  background: #e8e8e8;
+  box-shadow: inset 20px 20px 60px #c5c5c5,
+  inset -20px -20px 60px #ffffff;
+  transition: 0.3s;
+ }
+
+#adresse{
+
+  margin-left: 75px;
+  width: 300px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+
+#profession{
+  margin-left: 40px;
+  width: 300px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+
+#solde{
+  margin-left: 80px;
+  width: 300px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}

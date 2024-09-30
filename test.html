@@ -1,0 +1,1030 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        
+body{
+    color: #404040;
+    background-color: #f4f4f4;
+}
+.container-fluid{
+    padding: 0px;
+}
+
+.textFont{
+    font:normal 17px/1 'gesta-l';
+}
+
+#topHead{
+    background-color: rgb(223, 223, 215);
+    
+}
+
+#tH{
+    width: 85%;
+}
+#tH ul li{
+    
+    border: none;
+    background-color: #f8f8ff;
+}
+#tH ul li a{
+    color:#272626;
+}
+#midHead{
+    background-color: red; 
+     height: 40px;
+     clear: both;
+    padding:  10px 0px;
+    margin: 0px auto;
+}
+#forlogo{
+    width: 75%;
+}
+#logo{
+    background-image: url("images/logo-icon-sprite.png");
+   width: 163px;
+   height: 19px;
+     
+}
+.direkt{
+    clear: both;
+    width: 230px;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+    position: absolute;
+    right: 200px;
+    z-index: 10;
+   background-color: #fff; 
+}
+#note{
+    border-bottom: 1px solid #d9d9d9;
+}
+#cardbtn{
+    border-color:#717171;
+}
+.bigBtn>ul>li{
+    display: inline-block;
+    background-color:#d9d9d9;
+    padding: 10px;
+    color: #333333;
+    border-radius: 3px;
+}
+.bigBtn>ul>li>a{
+    color: #333333;
+}
+.bigBtn>ul>li>a{
+    color: #333333;
+}
+.wrapBtn{
+    width: auto;
+    padding: 5px 10px 0;
+    border-bottom-style: solid;
+    border-color: #d9d9d9;
+}
+#botHead{
+    margin: 0px auto; 
+    height: 40px;
+    background-image:url("images/segment-bg.jpg"); 
+}
+#botHeadList{
+    margin: 0px auto;
+}
+#botHeadList>li{
+    display: inline-block;
+    padding: 10px 0px;
+    margin-right: 10%;
+}
+#botHeadList li a {
+    color: white;
+}
+
+#searchDiv{
+    background-color:#ffffff;
+    width: 74%;
+    padding: 25px 0px 0px 10px;
+}
+
+#inputDiv{
+    width: 75%;
+    margin-top: 20px;
+}
+#searchSec{
+    padding: 0px 0px 20px 0px;
+     border-bottom: 2px solid rgba(145, 143, 145, 0.932);
+     background-color: #ffffff;
+}
+ .btn #searchbtn{
+    padding:13px; 
+    background-color:red;
+    border: none;
+    color: white;
+    font-size: 14.5pt;
+    border-radius: 0px !important;
+}
+#welcmtxt p{
+    font: normal 30px/1 'gesta-l';
+    color: #333;
+}
+#searchDiv p:nth-child(1){
+    color: #333333;
+    font-size: 18px;
+
+}
+#searchDiv p:nth-child(2){
+    font-size: 30px;
+    margin-top: 10px;
+}
+#myinput{
+    height: 46px;
+    border-color: red;
+}
+
+    #quickSearch li{
+        display: inline-block;
+         padding-left: 0px !important;
+         
+        
+    }
+#quickSearch li a{
+    width:  120px !important;
+    padding: 0px !important;
+    color:#000;
+    font:normal 14px 'gesta';
+}
+    #quickSearch li a:hover{
+        color: red;
+    text-decoration: underline;
+    }
+#searchBtn{
+    background-color: red;
+    color:white;
+}
+    
+ /* Main content sytle */
+ .indexall{
+     margin: 0px auto;
+ }
+
+ #campNav{
+    position: absolute;
+    top: 650px;
+    left: 350px;
+    right: 20px;
+    text-align: center;
+    z-index: 100;
+    background-color: #fff;
+ }
+  #campNav{
+    width:50%;
+ }
+ #campNav ul li{
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    zoom: 1;
+    padding: 10px;
+ }
+ #campNav ul li a{
+    color: #333;
+ }
+ #hmain{
+     margin : 0px auto ;
+     width: 75% !important;
+ }
+ #cot{
+    
+     background-color: #fff;
+ }
+ #cot1{
+    margin-top: 25px;
+    border: 1px solid #d9d9d9;
+ }
+ td{
+     margin: 5px;
+     font:normal 14px 'gesta';
+     color: #000;
+}
+ tr{
+     
+     border-left: 1px solid #d9d9d9;
+
+ }
+ div[foot] {
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+ }
+ div[foot] p{
+     margin-top: 20px;
+     margin-left :10px;
+     font-size: 14px;
+     color: #353535;
+ }
+ #ulist li{
+     border:none;
+     margin-top: 7px;
+ }
+ #ulist li a{
+     color: #353535;
+     font-size: 14px;
+    
+ }
+ #footlink a p{
+     margin-bottom: 0px;
+     padding: 10px 0px;
+ }
+ .card{
+     background-color: white !important;
+     border-radius: 0px;
+ }
+ .card-header , .card-footer{
+     background-color: #fff !important;
+ }
+ .cardImg{
+     background-image: url(images/115-yatirim-hizmetleri-EN.jpg);
+     background-repeat: no-repeat;
+     background-size: 600px 200px;
+ }
+.btn-info{
+        background-color: red !important;
+        border: red;
+        margin-left: 40%;
+ }
+.cardImg1{
+    background-image: url(images/main_campaign_splash_affluent_banking.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px 200px;
+    color: white;
+}
+.cardImg2{
+    background-image: url(images/footer_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px 200px;
+    color: white;
+}
+.cardImg3{
+    background-color: #d9d9d9
+}
+#socialList{
+    width: 70%;
+    margin: 0px auto;
+    background-color: #dfdeded5;
+    border: none;
+}
+#socialList a:first-child{
+padding-left: 60px;
+background-image: url(images/fblog.png);
+background-repeat: no-repeat;
+background-color:  #dfdeded5;
+border: none;
+}
+#socialList a:nth-child(2){
+    padding-left: 60px;
+    background-image: url(images/twitlog.png);
+    background-repeat: no-repeat;
+    background-color:  #dfdeded5;
+    border: none;
+    
+    }
+    #socialList a:nth-child(3){
+        padding-left: 60px;
+        background-image: url(images/liklod.png);
+        background-repeat: no-repeat;
+        background-color:  #dfdeded5;
+        border: none;
+        }
+        #socialList a:nth-child(4){
+            padding-left: 60px;
+            background-image: url(images/inst.png);
+            background-repeat: no-repeat;
+            background-color:  #dfdeded5;
+            border: none;
+            }
+            #socialList a:nth-child(5){
+                padding-left: 60px;
+                background-image: url(images/youl.png);
+                background-repeat: no-repeat;
+                background-color:  #dfdeded5;
+                border: none;
+                }
+            #s5{
+                background-color:  #dfdeded5;
+                color: #000;
+                font:normal 14px 'gesta';
+                padding-left: 20px;
+                padding-top: 20px;
+                        }
+                        .footer {
+                            margin-bottom: -5px;
+                            width: 100%;
+                            background-image: url(images/footer_bg.jpg);
+                            color: white;
+                            text-align: center;
+                          }
+       #footly{
+                        width: 70% !important;
+
+                          }
+                          div[fotrow] .col-md-3{
+                              margin-top: 40px;
+                              border-left: 1px solid #272626;}
+/* ..................................................Slider CSS............................. */
+ 
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 100px;
+  width: 30%;
+  text-align: left;
+  height: 100px;
+}
+
+/* Number text (1/3 etc) */
+
+
+/* The dots/bullets/indicators */
+.dot {
+  
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4s;
+  animation-name: fade;
+  animation-duration: 4s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+ /* ........the Memebers Page style Start here......................................................................  */
+
+
+
+
+.headColor{
+    background-color: #ff0000;
+    /* height: 70px; */
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
+.head2color{
+    background-color: white;
+}
+.head2color nav {
+   
+    padding: 10px 0px; 
+}
+.head2color nav ul{
+    width: 100%;
+    
+}
+.head2color nav ul li{
+    border-right: 1px solid #d9d9d9;
+    padding: 0px 30px 0px 30px;
+    line-height: 1;
+    /* width: 14%; */
+}
+.head2color nav ul li a{
+    color:red;
+    margin: 0px;
+}
+
+
+.head2color nav ul li:last-child{
+    border: none;
+}
+.head2color nav ul li:nth-child(1){
+    width: 30%;
+    text-align: center;
+}
+
+/* TODAY */
+.mdBorder{
+    border: 1px solid rgb(221, 218, 218);
+    background-color: #fff;
+    padding: 12px;
+}
+#circleDiv{
+    width: 30px;
+    height: 30px;
+    padding: 5px 20px 20px 10px;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+#circleDiv2{
+    width: 30px;
+    height: 30px;
+    padding: 5px 20px 20px 10px;
+    margin-top: 20px;
+    background-color:red;
+    border-radius: 50%;
+}
+.textC{
+    color: red;
+}
+.rowp p{
+    font-size: 10pt;
+}
+#msg{
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+
+#btnView{
+    margin-left:20%;
+    padding: 2px 20px;
+    background-color:black;
+    color: #f4f4f4;
+}
+.padzero{
+    padding:0px 0px;
+    border-top: 3px solid red;
+}
+#deepaction{
+    background-color: red;
+    color: white;
+}
+
+/* Dashboard code .................. */
+
+ /* Header style */
+ .allheader{
+     border: 1px solid #f4f4f4;
+ }
+ .header-left{
+     background-color: red;
+ }
+ .header-right{
+     background-color: white;
+ }
+ .centerIcon{
+     margin: 10px 15px;
+ }
+.contentcolor{
+    color: red;
+}
+.lstyle li{
+    border: none;
+    background-color: red;
+    
+}
+.lstyle li :hover{
+    background-color: #440505;
+}
+.lstyle li a{
+    padding: 20px 10px;
+    color: rgb(221, 217, 217);
+}
+/* Dashboard CSS start here */
+/* .d-sidebar-nav {
+    height: 100%;
+  }
+  
+  .d-sidebar-nav-menu {
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  .d-sidebar-nav-menu--top-level > .u-sidebar-nav-menu__item {
+    position: relative;
+  }
+  .d-sidebar-nav-menu__item {
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    list-style: none;
+    margin-bottom: 1.4rem;
+  }
+  .d-sidebar-nav-menu__item:last-child {
+    margin-bottom: 0;
+  }
+  .d-sidebar-nav-menu__link{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 0.25rem;
+    padding: 1rem 1.5rem;
+    -webkit-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  } */
+
+    </style>
+</head>
+<body>
+    <header class="container-fluid">
+        <section>
+            <div id="topHead">
+                    <div id="tH" class="container">
+                        <ul  class=" list-group list-group-horizontal float-right">  
+                                <li class=" list-group-item textFont "><a  href="#">Meet Akbank</a></li> 
+                                <li class="list-group-item textFont"><a  href="#"> Relation</a></li>
+                                <li class="list-group-item textFont" ><a href="#">TR</a></li>
+                        </ul>
+                    </div>
+                
+            </div>
+            <div id="midHead" >
+                    <div id="forlogo"  class="indexall container">
+                        
+                        <div id="logo" > <a href="#" title="AKBANK" ></a></div>
+                        
+                        <div class="card direkt">
+                            <img src="images/logo-icon-sprite-aki.png" class="card-img-top" alt="AKBANK">
+                            <div class="card-body " id="note" >
+                                  <a href="#" class="btn btn-light" id="cardbtn" >Personal</a>
+                                  <a href="#" class="btn btn-light" id="cardbtn">Coporate</a>
+                              
+                            </div>
+                            <div class="card-footer text-muted indexall">
+                                Get Password
+                              </div>
+                          </div>
+                    
+                    </div>
+            </div>
+        </section>
+        <section  id="searchSec">
+            <div id= "botHead">  
+                <div  id = "botHeadList" class="textFont col-9" >
+                    <li> <a href="#">Expat Banking</a></li>
+                    <li><a href="#"> Investors Relation</a></li> 
+                </div>
+            </div>
+            <div class="container"  id="searchDiv"> 
+               
+                    <div id="welcmtxt"> 
+                        <p> Hello</p>
+                        <p>How can we help you today ?</p>
+                    </div>
+                    <div id="inputDiv">
+                      <div class="input-group mb-3">
+                          <div class="input-group-prepend">
+                              <span><i class="fas fa-search"></i></span>
+                            </div>
+                        <input id="myinput" type="text" class="form-control" placeholder="Search..."  aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                          <button id="searchBtn" class="btn"  type="button" id="button-addon2"><strong>Search</strong></button>
+                        </div>
+                      </div>
+                    </div>
+                
+                    <ul id="quickSearch" class="nav"> 
+                        <li class="nav-item"> <a href="#" class="nav-link">  I need Expat Banking</a></li>
+                        <li class="nav-item"> <a href="#" class="nav-link">Multinational Banking</a></li>
+                        <li class="nav-item"> <a href="#" class="nav-link">Corporate  Responsibility</a></li>
+                        <li class="nav-item"> <a href="#" class="nav-link"> How can i become a Affluent Client? </a></li>
+                    </ul> 
+
+                
+            </div>
+        </section>
+        
+    </header>
+    <main id="hmain" class="container">
+        <section>
+          <!-- //.................. -->
+                    <div class="slideshow-container">
+                        <!-- full width images is required with number and caption  -->
+                        <div class="mySlides fade">
+                            <img  src="images/item1.jpg" style="width:100%">
+                            <div class="text">
+                              <h5>Akbank Direkt Mobile </h5>
+                              <p>Akbank Direkt Mobile application brings your bank right to your pocket. 
+                                You can log in easily using either a single password or your credit card information.</p>
+                                 <a href="#" class="btn btn-info" role="button">More Info</a> 
+                            </div>
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="images/main_campaign_splash_affluent_banking.jpg" style="width:100%">
+                            <div class="text">
+                                <h5>Akbank Affluent Banking</h5>
+                                <p>Enjoy the privileges  of Akbank Affluent Banking!</p>
+                                <a href="#" class="btn btn-info" role="button">More Info</a> 
+                              </div>
+                        </div>
+                        <div class="mySlides fade">
+              
+                            <img src="images/main_campaign_splash_ayricaliklar_dunyasi_en.jpg" style="width:100%">
+                            <div class="text">
+                                <h5>Expact Banking</h5>
+                                <p>Making Life Easier...</p>
+                                   <a href="#" class="btn btn-info" role="button">More Info</a> 
+                              </div>
+                        </div>
+                
+                        <!-- Next and prev Button -->
+                       
+                    </div>
+    
+                    <!--adding  three dot  progress circle -->
+
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                    </div>
+
+     <!-- ................. -->
+                <div id="campNav">   
+                    <ul class="nav" >
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Akbank Expat Banking</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Akbank Affluent Banking</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Akbank Direkt Mobile</a>
+                        </li>
+                    </ul>
+                </div>
+        </section>
+        <section id="cot">
+            <div id="cot1">
+                <div>
+                    <h3>RATE</h3>    
+                </div>
+                <div class="scrollbox row">
+                        <div class="col">
+                            <table>
+                                <tbody>
+                                    <tr> 
+                                        <td> USD 100 <img src="images/upsvdownlogo-icon-sprite.png"></td>
+                                        <td> </td>
+                                    </tr>
+                                    <tr>
+                                        <td> %1.287</td>
+                                        <td>98,987</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col">
+                                <table>
+                                        <tbody>
+                                            <tr> 
+                                                <td> USD 100 <img src="images/savedownlogo-icon-sprite.png"></td>
+                                                <td>Buy</td>
+                                                <td>Sell</td>
+                                            </tr>
+                                            <tr>
+                                                <td>%2.835</td>
+                                                <td>5.5260</td>
+                                                <td>58760</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                        </div>
+                        <div class="col">
+                                <table>
+                                        <tbody>
+                                            <tr> 
+                                                <td> USD 100 <img src="images/savedownlogo-icon-sprite.png"></td>
+                                                <td>Buy</td>
+                                                <td>Sell</td>
+                                            </tr>
+                                            <tr>
+                                                <td>%2.835</td>
+                                                <td>5.5260</td>
+                                                <td>58760</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                        </div>
+                        <div class="col">
+                                <table>
+                                        <tbody>
+                                            <tr> 
+                                                <td> USD 100 <img src="images/savedownlogo-icon-sprite.png"></td>
+                                                <td>Buy</td>
+                                                <td>Sell</td>
+                                            </tr>
+                                            <tr>
+                                                <td>%2.835</td>
+                                                <td>5.5260</td>
+                                                <td>58760</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                        </div>
+                        <div class="col">
+                                <table>
+                                        <tbody>
+                                            <tr> 
+                                                <td> USD 100 <img src="images/savedownlogo-icon-sprite.png"></td>
+                                                <td>Buy</td>
+                                                <td>Sell</td>
+                                            </tr>
+                                            <tr>
+                                                <td>%2.835</td>
+                                                <td>5.5260</td>
+                                                <td>58760</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                        </div>
+                </div>
+            </div>
+            <div foot class="list-group list-group-horizontal" >
+                    <p class="">Last Update: 06.09.2019 21:40:11</p>
+                    <div class="col-md-5"> </div>
+                    <ul id="ulist" class="list-group list-group-horizontal ml-4" id="footlink">
+                        <li class="list-group-item"> <a href="#"> Calculate your Rate </a></li>
+                        <li class="list-group-item"> <a href="#">Order Online</a></li>
+                     </ul>
+            </div>
+        </sectiaon>
+        <section class="row mt-4" > 
+            <div class="col-md-4 mr-4 ml-3">
+                  <div class="card ">
+                        <div class="card-header"><p> Investors Relation</p></div>
+                        <div class="card-body"><p>We are ready to help you find in-depth information on Akbank's 
+                            corporate governance, financials, ratings and more...</p></div> 
+                        <div class="card-footer"><a href="#" class="btn btn-info" role="button">More Info</a> </div>
+                   </div>
+            </div>
+            <div class=" col-md-7 ml-3" >
+                    <div class="card ">
+                          <div class="card-header">The Only Thing You Need To Know About Investment</div>
+                          <div class="card-body cardImg"><p style="width: 60%; color: white; font: normal 16px/140% 'gesta';">You will find the answers for the questions that you
+                              encounter while managing your investments with Akbank Wealth Management.​​</p></div> 
+                          <div class="card-footer"><a href="#" class="btn btn-info" role="button">More Info</a> </div>
+                     </div>
+              </div>
+        </section>
+        <section class="list-group list-group-horizontal" style="margin: 20px"> 
+                <div class="card col-sm-7" style="padding:0px; margin-left: 0px;">
+                    <div class="card-header"><p> Affluent Bank</p></div>
+                    <div class="card-body cardImg1" ><p>Enjoy the privileges of Akbank Affluent Banking!</p></div> 
+                    <div class="card-footer"><a href="#" class="btn btn-info" role="button">More Info</a> </div>
+                  </div>
+                  
+                  <div class="card col-sm-4" style="margin-left: 30px; padding:0px;">
+                    <div class="card-header"><p>Expat Bank</p> </div>
+                    <div class="card-body cardImg2"><p>​​Akbank Expat Banking puts Turkey's most valuable banking brand*
+                         to work for you. * Brand Finance Report 2014</p></div> 
+                    <div class="card-footer"><a href="#" class="btn btn-info" role="button">More Info</a> </div>
+                  </div>
+            </section>
+        <section class="list-group list-group-horizontal" style="margin: 20px"> 
+                    <div class="card col-sm-4" style="padding:0px; margin-left: 0px;">
+                        <div class="card-header"><p>News</p></div>
+                        <div class="card-body"><p>Akbank Digital Banking : Making the Most of Mobile - Euromoney
+
+                                We are pleased to share with you the latest issue of Euromoney, in which the progress of digital banking in Akbank was examined along with other pioneers in the CEE region.
+                                
+                                The arti...</p></div> 
+                        <div class="card-footer"><a href="#" style="color: black !important; text-decoration: underline;">See all</a> </div>
+                      </div>
+                      
+                      <div class="card col-sm-7" style="margin-left: 30px; padding:0px;">
+                        <div class="card-header">The Only Thing You Need To Know About Investment</div>
+                        <div class="card-body cardImg3" style="color:rgb(179, 8, 8);">
+                                <p style="width: 60%; font: normal 40px 'gesta'; text-align: center;">
+                                 The Year IS 2018​​</p>
+                                <h5><strong>We are 7 Years Young</strong></h3>
+                                <p>Sustainable Report</p>
+                        </div> 
+                        <div class="card-footer"><a style="color: black !important; text-decoration: underline;" href="#" >More Info</a> </div>
+                      </div>
+            </section>
+            <div>  <img src="images/Untitled.png"></div>
+        <section>      
+                <img class="img-fluid" src="images/map.jpeg" alt="Map Image" style="width: 100%"> 
+            </section>
+        <section id="s5">
+            <h5>We Love To Be Social</h5>
+                
+            <div class="list-group list-group-horizontal" id="socialList">
+                    <a href="#" class="list-group-item list-group-item-action"> /akbank</a>
+                    <a href="#" class="list-group-item list-group-item-action">/akbank</a>
+                    <a href="#" class="list-group-item list-group-item-action">/company /akbank</a>
+                
+                    <a href="#" class="list-group-item list-group-item-action">/akbank</a>
+                    <a href="#" class="list-group-item list-group-item-action">/akbank</a>
+                    
+            
+            </div>
+            
+        </section>
+    </main>
+<!-- Footer -->
+<footer class="page-footer font-small indigo footer" >
+
+        <!-- Footer Links -->
+        <div id="footly" class="container text-center text-md-left">
+      
+          <!-- Grid row -->
+          <div fotrow class="row">
+      
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto">
+      
+              <!-- Links -->
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">ABOUT US</h5>
+      
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!">Akbank in Breief </a>
+                </li>
+                <li>
+                  <a href="#!">Mission, Vission and Goal</a>
+                </li>
+                <li>
+                  <a href="#!">Financials</a>
+                </li>
+                <li>
+                  <a href="#!">Coporate Social Responsibility</a>
+                </li>
+                <li>
+                    <a href="#!">Sustainability Report</a>
+                </li>
+                <li>
+                    <a href="#!">Dividend Historyy</a>
+                </li>
+              </ul>
+      
+            </div>
+            <!-- Grid column -->
+      
+            <hr class="clearfix w-100 d-md-none">
+      
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto">
+      
+              <!-- Links -->
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Bank Services</h5>
+      
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!">Expat Banking</a>
+                </li>
+                <li>
+                  <a href="#!">Expat Assistance Line</a>
+                </li>
+                <li>
+                  <a href="#!">Affluent Banking</a>
+                </li>
+                <li>
+                  <a href="#!">Multinational Banking</a>
+                </li>
+                <li>
+                        <a href="#!">World of Personal Priviledges</a>
+                </li>
+                <li>
+                        <a href="#!">Western Union</a>
+                </li>
+              </ul>
+      
+            </div>
+            <!-- Grid column -->
+      
+            <hr class="clearfix w-100 d-md-none">
+      
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto">
+      
+              <!-- Links -->
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Bank Services</h5>
+      
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!">Expat Banking</a>
+                </li>
+                <li>
+                  <a href="#!">Expat Assistance Line</a>
+                </li>
+                <li>
+                  <a href="#!">Affluent Banking</a>
+                </li>
+                <li>
+                  <a href="#!">Multinational Banking</a>
+                </li>
+                <li>
+                        <a href="#!">World of Personal Priviledges</a>
+                </li>
+                <li>
+                        <a href="#!">Western Union</a>
+                </li>
+              </ul>
+      
+            </div>
+            <!-- Grid column -->
+      
+            <hr class="clearfix w-100 d-md-none">
+      
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto">
+      
+              <!-- Links -->
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Bank Services</h5>
+      
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!">Expat Banking</a>
+                </li>
+                <li>
+                  <a href="#!">Expat Assistance Line</a>
+                </li>
+                <li>
+                  <a href="#!">Affluent Banking</a>
+                </li>
+                <li>
+                  <a href="#!">Multinational Banking</a>
+                </li>
+                <li>
+                        <a href="#!">World of Personal Priviledges</a>
+                </li>
+                <li>
+                        <a href="#!">Western Union</a>
+                </li>
+              </ul>
+      
+      
+            </div>
+            <!-- Grid column -->
+      
+          </div>
+          <!-- Grid row -->
+      
+        </div>
+       
+        <div class="footer-copyright text-center py-3">
+          <a href="#"> Her hakkı Akbank T.A.Ş.’ye aittir. Copyright © 2019 </a>
+        </div>
+      
+ </footer>
+<script>
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+
+</script>
+</body>
+</html>

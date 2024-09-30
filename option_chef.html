@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tableau de bord de l'administrateur</title>
+
+  <!-- Add links to Bootstrap and Font Awesome CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    h1 {
+      color: #e74c3c;
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #3498db;
+      font-size: 2.5em;
+      margin-bottom: 15px;
+    }
+
+    p {
+      margin: 10px 0;
+      font-size: 1.3em;
+      color: #555;
+    }
+
+    .services {
+      background-color: #fff;
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 800px;
+      width: 100%;
+      animation: fadeInUp 1s ease-in-out;
+    }
+
+    .services p {
+      padding: 15px;
+      border-bottom: 1px solid #ddd;
+      transition: background-color 0.3s ease;
+    }
+
+    .services p:hover {
+      background-color: #f0f0f0;
+    }
+
+    /* Additional Styles */
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .btn-primary {
+      background-color: #3498db;
+      border-color: #3498db;
+    }
+
+    .btn-primary:hover {
+      background-color: #2980b9;
+      border-color: #2980b9;
+    }
+
+    /* Add more styles and animations based on your preferences */
+  </style>
+</head>
+<body>
+  <div class="container services">
+    <h1 class="mb-4">Bienvenue chef</h1>
+    <h2 class="mb-3">Que vous voulez faire aujourd'hui</h2>
+   
+    <a href="ajout_admin.html"><p class="mb-3"><i class="fas fa-user-plus"></i> Ajouter un admin</p></a>
+    <a href="supprim_admin.php"><p class="mb-3"><i class="fas fa-user-minus"></i> Supprimer un admin</p></a>
+    
+  </div>
+
+  <!-- Add Bootstrap JavaScript at the end of the body -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tableau de bord de l'administrateur</title>
+
+  <!-- Add links to Bootstrap and Font Awesome CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      position: relative;
+    }
+
+    .logo {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 100px; /* Réglez la largeur de votre logo selon vos préférences */
+      height: auto;
+    }
+
+    .sidebar {
+      height: 100%;
+      width: 250px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #333;
+      padding-top: 20px;
+      transition: width 0.3s;
+      z-index: 1000; /* Pour s'assurer que la barre latérale reste au-dessus du contenu */
+    }
+
+    .sidebar:hover {
+      width: 300px;
+    }
+
+    .sidebar a {
+      padding: 10px 15px;
+      text-decoration: none;
+      font-size: 18px;
+      color: #fff;
+      display: block;
+      transition: background-color 0.3s;
+    }
+
+    .sidebar a:hover {
+      background-color: #555;
+    }
+
+    .sidebar i {
+      margin-right: 10px;
+    }
+
+    .content {
+      margin-left: 250px;
+      padding: 20px;
+      z-index: 1; /* Pour s'assurer que le contenu reste au-dessous de la barre latérale */
+      text-align: center;
+    }
+
+    /* Styles pour le contenu au centre */
+    .content h2 {
+      color: #3498db;
+      font-size: 2.5em;
+      margin-bottom: 15px;
+    }
+
+    .content p {
+      margin: 10px 0;
+      font-size: 1.3em;
+      color: #555;
+    }
+
+    /* Ajouter des animations au sidebar */
+    @keyframes slideInLeft {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+
+    .sidebar {
+      animation: slideInLeft 0.5s forwards;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Logo -->
+  <img src="background.png" alt="Logo" class="logo">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <a href="#">Bienvenue Admin</a>
+    <a href="solde.php"><i class="fas fa-eye"></i> Voir solde</a>
+    <a href="ajout_montant.php"><i class="fas fa-plus"></i> Ajouter montant</a>
+    <a href="retirer_argent.php"><i class="fas fa-minus"></i> Retirer argent</a>
+    <a href="extrait.php"><i class="fas fa-file-alt"></i> Voir extrait</a>
+    <a href="ajout_client.html"><i class="fas fa-user-plus"></i> Ajouter un client</a>
+    <a href="supprim_client.php"><i class="fas fa-user-minus"></i> Supprimer un client</a>
+  </div>
+
+  <!-- Content -->
+  <div class="content" id="mainContent">
+    <h2>Bienvenue, admin</h2>
+    <p>Bienvenue sur votre tableau de bord administrateur. Utilisez la barre latérale pour accéder aux différentes fonctionnalités.</p>
+  </div>
+
+  <!-- Add Bootstrap JavaScript at the end of the body -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

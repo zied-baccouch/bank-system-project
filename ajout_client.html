@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+  <link rel="stylesheet" href="style_client.css">
+</head>
+
+<body>
+  <header>
+    <img src="background.png" alt="" class="img">
+  </header>
+
+
+  <form action="ajout_client.php" method="post" >
+    <fieldset>
+      <legend>ajouter un client</legend>
+
+      <div>
+        <span>Donner le numero cin</span>
+        <input type="number" name="num_cin" id="cin" placeholder="Donner le numero de cin "><br>
+      </div>
+
+      <div>
+        <span>Donner le nom</span>
+        <input type="text" name="nom" id="nom" placeholder="Donner le nom "><br>
+      </div>
+
+      <div>
+        <span>Donner le prenom</span>
+        <input type="text" name="prenom" id="prenom" placeholder="Donner le prenom "><br>
+      </div>
+      <div class="champ">
+        <span> Donner le sexe</span>
+        <select name="sexe" id="sexe" >
+           <option>Masculin</option>
+           <option>Feminin</option>
+    
+        </select>
+     </div>
+      
+      <div>
+        <span>Donner la date de naissance</span>
+        <input type="date" name="date_nais" id="date_nais" placeholder="Donner la date de naissance "><br>
+      </div>
+
+      <div>
+        <span>Donner le numero de telephone</span>
+      <input type="number" name="numero_tel" id="num_tel" placeholder="Donner le numero de telephone"><br>
+      </div>
+      
+      <div>
+        <span>Donner l'adresse</span>
+        <input type="text" name="adresse" id="adresse" placeholder="Donner l'adresse' "><br>
+      </div>
+      <div>
+        <span>Donner la profession</span>
+        <input type="text" name="profession" id="profession" placeholder="Donner la profession "><br>
+      </div>
+      
+      <div>
+        <span>Donner le solde</span>
+        <input type="number" name="solde" id="solde" placeholder="Donner le solde "><br>
+      </div>
+
+  
+
+      <input type="submit" name="submit" id="">
+    </fieldset>
+  </form>
+</body>
+</html>
